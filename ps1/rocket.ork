@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.10" creator="OpenRocket 24.12">
+  <rocket>
+    <name>PS 1</name>
+    <id>2c410ebc-6bef-4cc3-8432-a8db5e9b43b2</id>
+    <axialoffset method="absolute">0.0</axialoffset>
+    <position type="absolute">0.0</position>
+    <designer>Dev</designer>
+    <designtype>original</designtype>
+    <motorconfiguration configid="134df2c4-2c9a-41af-9bfe-a9eff1e291d1" default="true">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+        <id>bbcc1b31-ad57-48d4-9101-80ca2ff0485c</id>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose Cone</name>
+            <id>d3630372-23ae-407c-b5da-8fb87f5d8e76</id>
+            <finish>smooth</finish>
+            <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+            <length>0.35000000000000003</length>
+            <thickness>0.0025</thickness>
+            <shape>ogive</shape>
+            <shapeparameter>1.0</shapeparameter>
+            <aftradius>0.049</aftradius>
+            <aftshoulderradius>0.04650000000000001</aftshoulderradius>
+            <aftshoulderlength>0.08</aftshoulderlength>
+            <aftshoulderthickness>0.0025</aftshoulderthickness>
+            <aftshouldercapped>true</aftshouldercapped>
+            <isflipped>false</isflipped>
+          </nosecone>
+
+          <bodytube>
+            <name>Sustainer Body Tube</name>
+            <id>8c49fae1-7980-4cb8-bb8d-17522b49e61d</id>
+            <finish>smooth</finish>
+            <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+            <length>0.9500000000000001</length>
+            <thickness>0.0028000000000000004</thickness>
+            <radius>auto 0.049</radius>
+
+            <subcomponents>
+              <bulkhead>
+                <name>Bulkhead</name>
+                <id>0fc5d3bc-f407-4b3d-becc-27cbe4b967fa</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.1</axialoffset>
+                <position type="top">0.1</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.002</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.045</outerradius>
+              </bulkhead>
+
+              <tubecoupler>
+                <name>Tube Coupler</name>
+                <id>5c23d158-f0e6-42e7-9647-517260877cdf</id>
+                <axialoffset method="top">0.1</axialoffset>
+                <position type="top">0.1</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.15</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <thickness>0.0020000000000000018</thickness>
+              </tubecoupler>
+
+              <bulkhead>
+                <name>Bulkhead</name>
+                <id>a7903b72-c9aa-4aa6-b263-22d45c2bcb36</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.1</axialoffset>
+                <position type="top">0.1</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.002</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0015</outerradius>
+              </bulkhead>
+
+              <bulkhead>
+                <name>Bulkhead</name>
+                <id>fde7e897-f63a-4941-9345-ceb7432e70e5</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.1</axialoffset>
+                <position type="top">0.1</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.002</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0015</outerradius>
+              </bulkhead>
+
+              <parachute>
+                <name>Drogue Chute</name>
+                <id>75365f56-7135-48c0-9bcb-3c0764c1482b</id>
+                <axialoffset method="top">0.25</axialoffset>
+                <position type="top">0.25</position>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.015" group="Plastics">Polyethylene (thin)</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>0.6</diameter>
+                <linecount>6</linecount>
+                <linelength>0.6</linelength>
+                <linematerial type="line" density="0.0018" group="ThreadsLines">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+
+              <parachute>
+                <name>Main Chute</name>
+                <id>9b166873-9b30-4d4d-afe3-dbb98928a1b6</id>
+                <axialoffset method="top">0.35000000000000003</axialoffset>
+                <position type="top">0.35000000000000003</position>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>1.5</cd>
+                <material type="surface" density="0.015" group="Plastics">Polyethylene (thin)</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>1.5</diameter>
+                <linecount>12</linecount>
+                <linelength>2.2</linelength>
+                <linematerial type="line" density="0.0018" group="ThreadsLines">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+
+              <parachute>
+                <name>Payload recovery chute</name>
+                <id>c9c0cacb-102c-4c1f-9eee-bfaa03f2082d</id>
+                <axialoffset method="top">0.18</axialoffset>
+                <position type="top">0.18</position>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.015" group="Plastics">Polyethylene (thin)</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>1.1</diameter>
+                <linecount>6</linecount>
+                <linelength>0.3</linelength>
+                <linematerial type="line" density="0.0018" group="ThreadsLines">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+
+              <innertube>
+                <name>Inner Tube</name>
+                <id>8be77b88-99fb-47fb-8577-974b1928c4e8</id>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.45</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.028999999999999998</outerradius>
+                <thickness>0.001999999999999995</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+                <motormount>
+                  <ignitionevent>automatic</ignitionevent>
+                  <ignitiondelay>0.0</ignitiondelay>
+                  <overhang>0.0</overhang>
+                  <motor configid="134df2c4-2c9a-41af-9bfe-a9eff1e291d1">
+                    <type>reload</type>
+                    <manufacturer>AeroTech</manufacturer>
+                    <digest>d7c3374401cf3208f0b4364f7a1d6532</digest>
+                    <designation>I435T</designation>
+                    <diameter>0.038</diameter>
+                    <length>0.299</length>
+                    <delay>14.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="134df2c4-2c9a-41af-9bfe-a9eff1e291d1">
+                    <ignitionevent>ejectioncharge</ignitionevent>
+                    <ignitiondelay>0.5</ignitiondelay>
+                  </ignitionconfiguration>
+                </motormount>
+
+                <subcomponents>
+                  <centeringring>
+                    <name>Centering Ring</name>
+                    <id>ed5fc069-3db5-44d7-86eb-f0e7fe277be1</id>
+                    <instancecount>1</instancecount>
+                    <instanceseparation>0.0</instanceseparation>
+                    <axialoffset method="bottom">-0.05</axialoffset>
+                    <position type="bottom">-0.05</position>
+                    <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                    <length>0.005</length>
+                    <radialposition>0.0</radialposition>
+                    <radialdirection>0.0</radialdirection>
+                    <outerradius>0.04650000000000001</outerradius>
+                    <innerradius>0.028999999999999998</innerradius>
+                  </centeringring>
+
+                  <centeringring>
+                    <name>Centering Ring</name>
+                    <id>e07e66ba-e235-477a-a919-ae9bcbf7d086</id>
+                    <instancecount>1</instancecount>
+                    <instanceseparation>0.0</instanceseparation>
+                    <axialoffset method="bottom">-0.4</axialoffset>
+                    <position type="bottom">-0.4</position>
+                    <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                    <length>0.005</length>
+                    <radialposition>0.0</radialposition>
+                    <radialdirection>0.0</radialdirection>
+                    <outerradius>0.04650000000000001</outerradius>
+                    <innerradius>0.028999999999999998</innerradius>
+                  </centeringring>
+                </subcomponents>
+              </innertube>
+
+              <trapezoidfinset>
+                <name>Trapezoidal Fin Set</name>
+                <id>7dbe1eab-dc7a-4c52-b25a-bf3a05138690</id>
+                <instancecount>4</instancecount>
+                <fincount>4</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">0.0</angleoffset>
+                <rotation>0.0</rotation>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <thickness>0.004</thickness>
+                <crosssection>airfoil</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="170.0" group="Woods">Balsa</filletmaterial>
+                <rootchord>0.18</rootchord>
+                <tipchord>0.07</tipchord>
+                <sweeplength>0.09</sweeplength>
+                <height>0.085</height>
+              </trapezoidfinset>
+
+              <shockcord>
+                <name>Shock Cord</name>
+                <id>4150fda4-ba2b-4b57-94bf-153ad78f682d</id>
+                <axialoffset method="top">0.0</axialoffset>
+                <position type="top">0.0</position>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cordlength>3.0</cordlength>
+                <material type="line" density="0.016" group="ThreadsLines">Tubular nylon (14 mm, 9/16 in)</material>
+              </shockcord>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+
+      <stage>
+        <name>Booster Stage</name>
+        <id>48e5b5a4-346d-4ffa-a923-904dd2fb9346</id>
+        <separationevent>burnout</separationevent>
+        <separationaltitude>200.0</separationaltitude>
+        <separationdelay>0.0</separationdelay>
+
+        <subcomponents>
+          <bodytube>
+            <name>Body Tube</name>
+            <id>572b93bc-8ad2-42b6-ade4-464c23952832</id>
+            <finish>smooth</finish>
+            <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+            <length>0.65</length>
+            <thickness>0.0024999999999999953</thickness>
+            <radius>auto 0.049</radius>
+
+            <subcomponents>
+              <tubecoupler>
+                <name>Tube Coupler</name>
+                <id>d9cb10d7-65cd-4765-ba8f-ed3c2813950d</id>
+                <axialoffset method="top">-0.12</axialoffset>
+                <position type="top">-0.12</position>
+                <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+                <length>0.12</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>auto</outerradius>
+                <thickness>0.0025000000000000022</thickness>
+              </tubecoupler>
+
+              <innertube>
+                <name>Inner Tube Booster</name>
+                <id>1e883874-0eaa-4573-9ab2-a6a8a000d0d6</id>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <length>0.5</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.028999999999999998</outerradius>
+                <thickness>0.001999999999999995</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+                <motormount>
+                  <ignitionevent>automatic</ignitionevent>
+                  <ignitiondelay>0.0</ignitiondelay>
+                  <overhang>0.0</overhang>
+                  <motor configid="134df2c4-2c9a-41af-9bfe-a9eff1e291d1">
+                    <type>reload</type>
+                    <manufacturer>AeroTech</manufacturer>
+                    <digest>cb788683f45b481a33176306e89d3c3e</digest>
+                    <designation>J800T</designation>
+                    <diameter>0.054</diameter>
+                    <length>0.316</length>
+                    <delay>0.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="134df2c4-2c9a-41af-9bfe-a9eff1e291d1">
+                    <ignitionevent>automatic</ignitionevent>
+                    <ignitiondelay>0.0</ignitiondelay>
+                  </ignitionconfiguration>
+                </motormount>
+
+                <subcomponents>
+                  <centeringring>
+                    <name>Centering Ring</name>
+                    <id>5aebb98f-b463-49f3-9f85-15ce01511cf2</id>
+                    <instancecount>1</instancecount>
+                    <instanceseparation>0.0</instanceseparation>
+                    <axialoffset method="bottom">-0.05</axialoffset>
+                    <position type="bottom">-0.05</position>
+                    <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                    <length>0.0025</length>
+                    <radialposition>0.0</radialposition>
+                    <radialdirection>0.0</radialdirection>
+                    <outerradius>0.04650000000000001</outerradius>
+                    <innerradius>0.028999999999999998</innerradius>
+                  </centeringring>
+
+                  <centeringring>
+                    <name>Centering Ring</name>
+                    <id>a97f23a8-04b8-4b08-9a1f-9497edb748e8</id>
+                    <instancecount>1</instancecount>
+                    <instanceseparation>0.0</instanceseparation>
+                    <axialoffset method="bottom">-0.45</axialoffset>
+                    <position type="bottom">-0.45</position>
+                    <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                    <length>0.0025</length>
+                    <radialposition>0.0</radialposition>
+                    <radialdirection>0.0</radialdirection>
+                    <outerradius>0.04650000000000001</outerradius>
+                    <innerradius>0.028999999999999998</innerradius>
+                  </centeringring>
+                </subcomponents>
+              </innertube>
+
+              <trapezoidfinset>
+                <name>Trapezoidal Fin Set</name>
+                <id>3a93ef43-214f-4d47-9cb8-90cd5afeff5b</id>
+                <instancecount>4</instancecount>
+                <fincount>4</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">0.0</angleoffset>
+                <rotation>0.0</rotation>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="1390.0" group="Plastics">PVC</material>
+                <thickness>0.0045000000000000005</thickness>
+                <crosssection>airfoil</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="170.0" group="Woods">Balsa</filletmaterial>
+                <rootchord>0.22</rootchord>
+                <tipchord>0.08</tipchord>
+                <sweeplength>0.11</sweeplength>
+                <height>0.115</height>
+              </trapezoidfinset>
+
+              <railbutton>
+                <name>Rail Button</name>
+                <id>b5168e2e-a345-4165-b39d-b9569089ce65</id>
+                <instancecount>2</instancecount>
+                <instanceseparation>0.45</instanceseparation>
+                <angleoffset method="relative">180.0</angleoffset>
+                <axialoffset method="middle">0.0</axialoffset>
+                <position type="middle">0.0</position>
+                <finish>normal</finish>
+                <material type="bulk" density="1420.0" group="Plastics">Delrin</material>
+                <outerdiameter>0.0097</outerdiameter>
+                <innerdiameter>0.008</innerdiameter>
+                <height>0.0097</height>
+                <baseheight>0.002</baseheight>
+                <flangeheight>0.002</flangeheight>
+                <screwheight>0.0</screwheight>
+              </railbutton>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="notsimulated">
+      <name>Simulation 3</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>134df2c4-2c9a-41af-9bfe-a9eff1e291d1</configid>
+        <launchrodlength>2.5</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>270.0</launchroddirection>
+        <windaverage>10.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>4.71238898038469</winddirection>
+        <wind model="average">
+          <speed>10.0</speed>
+          <direction>4.71238898038469</direction>
+          <standarddeviation>1.0</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="4064.345" maxvelocity="395.561" maxacceleration="268.433" maxmach="0.698" timetoapogee="26.5" flighttime="723.893" groundhitvelocity="11.044" launchrodvelocity="28.322" deploymentvelocity="20.42" optimumdelay="22.636">
+        <warning type="HighSpeedDeployment">
+          <id>eae53dea-40d8-482d-9ff2-88b69156c416</id>
+          <description>Recovery device deployment at high speed (20.4 m/s)</description>
+          <priority>NORMAL</priority>
+          <source>75365f56-7135-48c0-9bcb-3c0764c1482b</source>
+          <parameter>20.41407336947171</parameter>
+          Recovery device deployment at high speed (20.4 m/s):  &quot;Drogue Chute&quot;
+        </warning>
+        <warning type="HighSpeedDeployment">
+          <id>948f7fe5-7511-4617-806c-1dd5c986ed01</id>
+          <description>Recovery device deployment at high speed (20.4 m/s)</description>
+          <priority>NORMAL</priority>
+          <source>c9c0cacb-102c-4c1f-9eee-bfaa03f2082d</source>
+          <parameter>20.41407336947171</parameter>
+          Recovery device deployment at high speed (20.4 m/s):  &quot;Payload recovery chute&quot;
+        </warning>
+        <warning type="HighSpeedDeployment">
+          <id>fbe796cd-03ec-4315-9bb0-b64d90380767</id>
+          <description>Recovery device deployment at high speed (20.4 m/s)</description>
+          <priority>NORMAL</priority>
+          <source>9b166873-9b30-4d4d-afe3-dbb98928a1b6</source>
+          <parameter>20.41407336947171</parameter>
+          Recovery device deployment at high speed (20.4 m/s):  &quot;Main Chute&quot;
+        </warning>
+        <warning type="Other">
+          <id>60185cb2-5dce-4779-a3c4-1eff7dba3f83</id>
+          <description>Open forward airframe (diameter &gt; 0)</description>
+          <priority>LOW</priority>
+          <source>572b93bc-8ad2-42b6-ade4-464c23952832</source>
+          Open forward airframe (diameter &gt; 0):  &quot;Body Tube&quot;
+        </warning>
+      </flightdata>
+    </simulation>
+  </simulations>
+  <photostudio>
+  </photostudio>
+  <docprefs>
+  </docprefs>
+</openrocket>
